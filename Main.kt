@@ -21,6 +21,7 @@ fun initGame() {
     println("The free keyword allows you to explore a cell. If there is a mine there, you lose the game.")
     println("Unexplored cells contain a \".\". Explored cells that do not contain a mine have a \"/\".")
 
+    
     MINE_FIELD = generateMineField()
     plantMines()
     setCellNumbers()
